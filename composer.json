@@ -1,0 +1,49 @@
+{
+    "name": "edupham/laravel-command-bus",
+    "version": "1.0.0",
+    "description": "Simple Command Bus for Laravel framework",
+    "keywords": [
+        "laravel",
+        "bus",
+        "command bus",
+        "simple sqrs",
+        "clear controllers"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edupham",
+            "email": "doanpvdev@gmail.com",
+            "role": "Developer",
+            "refer": "https://github.com/rosamarsky/laravel-command-bus"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Edupham\\CommandBus\\CommandBusServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^7.1|^8.0",
+        "illuminate/container": "*",
+        "illuminate/support": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.6",
+        "sebastian/version": "^1.0.1",
+        "mockery/mockery": "0.9.*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Edupham\\CommandBus\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Edupham\\CommandBus\\Tests\\": "tests"
+        }
+    }
+}
