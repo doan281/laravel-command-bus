@@ -21,7 +21,7 @@ apps/Http/Controllers/
 --/Commands
 ----/RegisterUser.php
 --/Controllers
-----/AbsctractController.php
+----/AbstractController.php
 ----/UserController.php
 --/Handlers
 ----/RegisterUserHandler.php
@@ -91,7 +91,7 @@ namespace App\Http\Controllers\User\Controllers;
 use Edupham\CommandBus\Command;
 use Edupham\CommandBus\CommandBus;
 
-class AbsctractController extends \Illuminate\Routing\Controller
+class AbstractController extends \Illuminate\Routing\Controller
 {
     private $dispatcher;
     
